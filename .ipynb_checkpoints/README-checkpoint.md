@@ -4,7 +4,7 @@
 
 This project analyzes credit card customer churn patterns to identify at risk customers and develop data driven retention strategies. Through comprehensive exploratory data analysis and predictive modeling, we built machine learning models that achieve **96%+ AUC accuracy** in identifying customers likely to churn before they leave.
 
-**Analysis Question:** *What factors cause credit card customers to churn, and can we identify at risk customers before they leave?*
+**Analysis Question:** *What factors cause credit card customers to churn and can we identify at risk customers before they leave?*
 
 ---
 
@@ -337,7 +337,7 @@ pip install -r requirements.txt
 
 ### **Analysed Question Answered:** ✅ YES!
 
-**"What factors cause credit card customers to churn, and can we identify at risk customers before they leave?"**
+**"What factors cause credit card customers to churn and can we identify at risk customers before they leave?"**
 
 **Answer:**
 
