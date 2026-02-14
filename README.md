@@ -82,7 +82,7 @@ The analysis is divided into three Jupyter notebooks covering the complete data 
 
 **Source:** Kaggle - Credit Card Customers Dataset  
 **Records:** 10,127 customers  
-**Features:** 21 variables (18 original + 3 derived)  
+**Features:** 23 variables 
 **Target:** Customer attrition status (Churned / Retained)
 
 ### **Feature Categories:**
@@ -286,7 +286,7 @@ Credit-Card-Customers-Analysis/
 │   └── ML models, segmentation, risk scoring
 │
 ├── BankChurners.csv
-│   └── Dataset (10,127 customers × 21 features)
+│   └── Dataset (10,127 customers × 23 features)
 │
 ├── README.md
 │   └── Project documentation (this file)
