@@ -4,7 +4,7 @@
 
 This project analyzes credit card customer churn patterns to identify at risk customers and develop data driven retention strategies. Through comprehensive exploratory data analysis and predictive modeling, we built machine learning models that achieve **96%+ AUC accuracy** in identifying customers likely to churn before they leave.
 
-**Analysis Question:** *What factors cause credit card customers to churn, and can we identify at-risk customers before they leave?*
+**Analysis Question:** *What factors cause credit card customers to churn, and can we identify at risk customers before they leave?*
 
 ---
 
@@ -399,4 +399,4 @@ February, 2026
 
 - **Dataset Source:** Kaggle - Credit Card Customers Dataset (Sakshi Goyal)
 - **Methodology:** Industry best practices in churn prediction and customer analytics
-- **Tools:** Python data science ecosystem
+
