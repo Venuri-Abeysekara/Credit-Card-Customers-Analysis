@@ -193,29 +193,27 @@ The analysis is divided into three Jupyter notebooks covering the complete data 
 
 ### **5. Customer Segmentation**
 
-| Segment | Size | Churn Rate | Risk Level | Characteristics |
-|---------|------|------------|------------|-----------------|
-| 0 | 2,847 (28%) | 8.2% | 🟢 Low | High transactions, low inactivity |
-| 1 | 3,214 (32%) | 12.5% | 🟡 Medium | Moderate activity, average engagement |
-| 2 | 2,456 (24%) | 19.8% | 🟠 High | Declining transactions, rising inactivity |
-| 3 | 1,610 (16%) | 31.2% | 🔴 Critical | Low transactions, high inactivity |
+Segment  Size        Churn Rate  Risk Level   Characteristics
+0        3,062 (30%) 40.0%       🔴 HIGH      Low transactions, high inactivity
+1        2,251 (22%) 9.0%        🟢 Low       High transactions, moderate inactivity
+2        2,619 (26%) 4.0%        🟢 Low       High transactions, low inactivity
+3        2,195 (22%) 4.0%        🟢 Low       Very high transactions, low inactivity
 
-**Critical Insight:** Segment 3 (1,610 customers) requires immediate retention intervention
+**Critical Insight:** Segment 0 (3,062 customers) requires immediate retention intervention
 
 ### **6. Risk Scoring Distribution**
-- **Critical Risk (75-100):** 1,245 customers
-- **High Risk (50-75):** 2,018 customers
-- **Medium Risk (25-50):** 3,891 customers
-- **Low Risk (0-25):** 2,973 customers
 
-**Total Priority Customers:** 3,263 (Critical + High risk)
+- **High Risk:** 3,062 customers (40% churn rate)
+- **Low Risk:** 7,065 customers (4-9% churn rate)
+
+**Total Priority Customers:** 3,062
 
 ---
 
 ## 💼 Business Recommendations
 
 ### **1. Immediate Actions (Next 30 Days)**
-- **Target:** 3,263 critical and high risk customers
+- **Target:** 3,062 high risk customers
 - **Actions:**
   - Personalized retention outreach
   - Exclusive fee waivers or cashback bonuses
@@ -355,7 +353,7 @@ pip install -r requirements.txt
 
 3. **Actionable Segmentation:**
    - 4 distinct risk segments created
-   - **3,263 customers** flagged for immediate attention
+   - **3,062 customers** flagged for immediate attention
    - Individual risk scores (0-100) for all customers
 
 4. **Business Impact:**
@@ -364,10 +362,10 @@ pip install -r requirements.txt
    - 300-500% ROI on retention programs
 
 **Answer Summary:**
-✅ **97.25% AUC accuracy** in churn prediction  
-✅ Successfully identifies **77% of customers who will churn**  
-✅ **3,263 customers** flagged for immediate retention action  
-✅ **$490,000/year** potential revenue protection
+✅ 97.25% AUC accuracy in churn prediction  
+✅ Successfully identifies 77% of customers who will churn  
+✅ **3,062 customers** flagged for immediate retention action
+✅ $490,000/year potential revenue protection
 
 ---
 ## 📊 Visualizations
