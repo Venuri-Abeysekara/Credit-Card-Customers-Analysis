@@ -193,11 +193,14 @@ The analysis is divided into three Jupyter notebooks covering the complete data 
 
 ### **5. Customer Segmentation**
 
-Segment  Size        Churn Rate  Risk Level   Characteristics
-0        3,062 (30%) 40.0%       🔴 HIGH      Low transactions, high inactivity
-1        2,251 (22%) 9.0%        🟢 Low       High transactions, moderate inactivity
-2        2,619 (26%) 4.0%        🟢 Low       High transactions, low inactivity
-3        2,195 (22%) 4.0%        🟢 Low       Very high transactions, low inactivity
+| Segment | Size | Churn Rate | Risk Level | Characteristics |
+|--------|------------|-----------|------------|------------------------|
+| 0 | 3,062 (30%) | 40.0% | 🔴 HIGH | Low transactions, high inactivity|
+| 1 | 2,251 (22%) | 9.0% |  🟢 Low |  High transactions, moderate inactivity |
+| 2 | 2,619 (26%) | 4.0% |  🟢 Low |  High transactions, low inactivity |
+| 3 | 2,195 (22%) | 4.0% |  🟢 Low |  Very high transactions, low inactivity |
+
+   
 
 **Critical Insight:** Segment 0 (3,062 customers) requires immediate retention intervention
 
