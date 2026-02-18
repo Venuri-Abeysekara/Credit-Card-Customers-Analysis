@@ -296,7 +296,7 @@ Credit-Card-Customers-Analysis/
     └── Python package dependencies
 ```
 
-## 🚀 How to Run
+## How to Run
 
 ### **Prerequisites**
 
