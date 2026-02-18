@@ -1,6 +1,6 @@
 # Credit Card Customer Churn Analysis
 
-## 📊 Project Overview
+## Project Overview
 
 This project analyzes credit card customer churn patterns to identify at risk customers and develop data driven retention strategies. Through comprehensive exploratory data analysis and predictive modeling, we built machine learning models that achieve **96%+ AUC accuracy** in identifying customers likely to churn before they leave.
 
@@ -8,7 +8,7 @@ This project analyzes credit card customer churn patterns to identify at risk cu
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 
 A credit card services manager faces increasing customer attrition, threatening revenue and market share. The organization needs:
 - Predictive capabilities to identify at risk customers proactively
@@ -17,7 +17,7 @@ A credit card services manager faces increasing customer attrition, threatening 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 The analysis is divided into three Jupyter notebooks covering the complete data science workflow:
 
@@ -78,7 +78,7 @@ The analysis is divided into three Jupyter notebooks covering the complete data 
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Source:** Kaggle - Credit Card Customers Dataset  
 **Records:** 10,127 customers  
@@ -111,7 +111,7 @@ The analysis is divided into three Jupyter notebooks covering the complete data 
 
 ---
 
-## 🔬 Methodology
+## Methodology
 
 ### **Phase 1: Data Understanding (Notebook 1)**
 - Initial data loading and inspection
@@ -159,7 +159,7 @@ The analysis is divided into three Jupyter notebooks covering the complete data 
 
 ---
 
-## 🎯 Key Findings
+## Key Findings
 
 ### **1. Churn Rate**
 - **16.1%** of customers have churned (1,627 out of 10,127)
@@ -195,10 +195,10 @@ The analysis is divided into three Jupyter notebooks covering the complete data 
 
 | Segment | Size | Churn Rate | Risk Level | Characteristics |
 |--------|------------|-----------|------------|------------------------|
-| 0 | 3,062 (30%) | 40.0% | 🔴 HIGH | Low transactions, high inactivity|
-| 1 | 2,251 (22%) | 9.0% |  🟢 Low |  High transactions, moderate inactivity |
-| 2 | 2,619 (26%) | 4.0% |  🟢 Low |  High transactions, low inactivity |
-| 3 | 2,195 (22%) | 4.0% |  🟢 Low |  Very high transactions, low inactivity |
+| 0 | 3,062 (30%) | 40.0% |  HIGH | Low transactions, high inactivity|
+| 1 | 2,251 (22%) | 9.0% |   Low |  High transactions, moderate inactivity |
+| 2 | 2,619 (26%) | 4.0% |   Low |  High transactions, low inactivity |
+| 3 | 2,195 (22%) | 4.0% |   Low |  Very high transactions, low inactivity |
 
    
 
@@ -213,7 +213,7 @@ The analysis is divided into three Jupyter notebooks covering the complete data 
 
 ---
 
-## 💼 Business Recommendations
+## Business Recommendations
 
 ### **1. Immediate Actions (Next 30 Days)**
 - **Target:** 3,062 high risk customers
@@ -256,7 +256,7 @@ The analysis is divided into three Jupyter notebooks covering the complete data 
   
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3.x**
 - **Jupyter Notebook**
@@ -272,7 +272,7 @@ The analysis is divided into three Jupyter notebooks covering the complete data 
 - **scipy** - Statistical analysis
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 Credit-Card-Customers-Analysis/
@@ -334,9 +334,9 @@ pip install -r requirements.txt
      
 ---
 
-## 📈 Results Summary
+##  Results Summary
 
-### **Analysed Question Answered:** ✅ YES!
+### **Analysed Question Answered:** YES
 
 **"What factors cause credit card customers to churn and can we identify at risk customers before they leave?"**
 
@@ -365,13 +365,13 @@ pip install -r requirements.txt
    - 300-500% ROI on retention programs
 
 **Answer Summary:**
-✅ 97.25% AUC accuracy in churn prediction  
-✅ Successfully identifies 77% of customers who will churn  
-✅ **3,062 customers** flagged for immediate retention action
-✅ $490,000/year potential revenue protection
+- 97.25% AUC accuracy in churn prediction  
+- Successfully identifies 77% of customers who will churn  
+- **3,062 customers** flagged for immediate retention action
+- $490,000/year potential revenue protection
 
 ---
-## 📊 Visualizations
+## Visualizations
 
 The analysis includes many professional visualizations across all notebooks:
 - Churn distribution charts (pie and bar)
@@ -389,14 +389,14 @@ The analysis includes many professional visualizations across all notebooks:
 
 ---
 
-## 👤 Author
+## Author
 
 **Venuri Abeysekara**  
 February, 2026
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Dataset Source:** Kaggle - Credit Card Customers Dataset (Sakshi Goyal)
 - **Methodology:** Industry best practices in churn prediction and customer analytics
